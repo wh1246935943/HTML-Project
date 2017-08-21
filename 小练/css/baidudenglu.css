@@ -1,0 +1,279 @@
+/*dovument css*/
+@charset "UTF-8";
+ul,li{
+    list-style: none;
+}
+*{margin:0;padding:0}
+a:link{
+    color:#555555;
+    text-decoration: underline;
+}
+a:visited{
+    color:#555555;
+    text-decoration: underline;
+}
+a:hover{
+    color:#555555;
+    text-decoration: underline;
+}
+a:active{
+    color:#555555;
+    text-decoration: underline;
+}
+
+
+/*top*/
+.top{
+    width: 100%;
+    height:33px;
+}
+.top-img{
+    float:left
+}
+.top-right{
+    float:right;
+    width: 593px;
+    height:33px;
+}
+.top ul li{
+    height:33px;
+    float: left;
+    line-height: 33px;
+    margin-left:10px;
+    padding:0 5px;
+    font-size: 15px;
+    text-decoration: underline;
+}
+/*top*/
+
+
+
+/*搜索*/
+.search{
+    width:895px;
+    height:200px;
+    margin:0 auto;
+    position: relative;
+    text-align: center;
+    padding-top:50px;
+}
+.search-input{
+    width:642px;
+    height:40px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.search-input-a{
+    width: 535px;
+    height:40px;
+    border: 0;
+    float:left;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+}
+.search-input-bottom{
+    width: 106px;
+    height:40px;
+    border:0;
+    background:  #317EF3;
+    float:left;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    color:#fff;
+}
+/*搜索*/
+
+
+
+/*x新闻*/
+.new{
+    width: 895px;
+    min-height:800px;
+    border: 1px solid #f2f2f2;
+    box-sizing: border-box;
+    margin:77px auto 0;
+}
+.new-top{
+    width: 100%;
+    height:40px;
+    border-bottom: 1px solid #f2f2f2;
+}
+.new-top-per{
+    width: 120px;
+    height:40px;
+    background: url(../images/bd人.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 12px 7px;
+    /*border-right:1px solid #B5B5B5;*/
+    float:left;
+}
+.new-top-per span{
+    font-size: 15PX;
+    font-family: "微软雅黑";
+    position: relative;
+    top:10px;
+    left:43px;
+}
+.new-top-nav{
+    height:40px;
+    float:left
+}
+.new-top-nav ul li{
+    width:80px;
+    height:40px;
+    float:left;
+    line-height: 40px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+.new-top-nav ul li:hover{
+    background: #9A9DA2;
+}
+.new-top img{
+    position: relative;
+    right:-422px;
+    top:10px;
+}
+.new-left{
+    width:566px;
+    min-height:500px;
+    margin:10px 0 0 10px;
+    float: left;
+}
+.new-left-top{
+    height:30px;
+    width:100%;
+}
+.hr-1{
+    position:relative;
+    width: 175px;
+    border:1px solid #f2f2f2;
+    top:13px;
+}
+.hr-2{
+    position:relative;
+    width: 175px;
+    border:1px solid #f2f2f2;
+    top:-9px;
+    left:388px;
+}
+.new-left-top span{
+    position: relative;
+    left:200px;
+    color:#9a9da2;
+    font-size: 13px;
+}
+.new-left-top img{
+    position: relative;
+    left:193px;
+    top:3px;
+}
+
+
+
+.new-left ul li{
+    width:566px;
+    min-height:45px;
+    padding:10px 0 25px 0;
+    border-bottom:1px solid #f2f2f2;
+    position: relative;
+}
+.new-left h4{
+    font-size: 20px;
+    font-family: "微软雅黑";
+    line-height: 40px;
+    left:100px;
+    /*position: absolute;*/
+    /*top:10px;*/
+    /*left:20px;*/
+}
+.new-left p{
+    font-family: "微软雅黑";
+    font-size: 13px;
+    color: #9d9999;
+    position: absolute;
+    bottom: 5px;
+}
+.new-left img{
+    margin-right: 2px;
+}
+.clear{
+    clear: both;
+}
+.new-left p span{
+    font-size: 11px;
+    color: red;
+    border: 1px solid red;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.new-right{
+    width:300px;
+    height:330px;
+    float:right;
+    margin-top:13px;
+}
+.new-right-top{
+    width:100%;
+    height:30px;
+
+}
+.span1{
+    font-size: 20px;
+    line-height: 30px;
+}
+.span2{
+    font-size: 12px;
+    margin-left:160px;
+    line-height: 30px;
+}
+/*.new-right-body{*/
+    /*height:*/
+/*}*/
+.new-right ul li{
+    width:150px;
+    height:34px;
+    float:left;
+    text-align: left;
+    line-height:34px;
+    font-size: 15px;
+    color:#3d423e;
+    font-family: "微软雅黑";
+}
+.new-right ul li span{
+    color:red;
+    font-size: 12px;
+    border:1px solid red;
+    border-radius: 3px;
+}
+/*x新闻*/

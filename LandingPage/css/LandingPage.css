@@ -1,0 +1,333 @@
+/*document CSS*/
+@charset "UTF-8";
+.clear {
+    clear: both;
+}
+
+html, body {
+    height: 100%
+}
+
+ul, li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+* {
+    padding-left:0;
+    padding-right:0;
+}
+
+h1, h2, h3, h4, h5, h6, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/*顶部导航区域*/
+.topArea {
+    padding: 0 30px;
+    background: #eaeaeb;
+    color: #666;
+    font-size: 18px;
+}
+
+.topArea .banner-left {
+    padding: 12px 0;
+}
+
+.topArea .banner-right {
+    display: flex;
+    justify-content: flex-end;
+    padding: 7px 0;
+    /*text-align: right;*/
+}
+
+.topArea .banner-right .navbar-nav li a {
+    color: #666;
+}
+@media screen and (min-width: 770px){
+    .topArea .banner-left {
+        padding: 20px 0;
+    }
+}
+/*nav导航*/
+.navbar-toggle {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+}
+
+.navbar {
+    position: relative;
+    min-height: 20px;
+    margin-bottom: 0px;
+    /*border: 1px solid #666;*/
+}
+
+.navbar-default {
+    background-color: #eaeaeb;
+    border-color: #e7e7e7;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #666;
+}
+
+/*nav导航*/
+/*顶部导航区域*/
+
+/*中间图片区域*/
+.middle-pic {
+    width: 100%;
+    background: url(../img/intro-bg.jpg);
+    background-size: cover;
+    padding: 280px 0;
+    text-align: center;
+}
+
+.middle-pic p {
+    font-size: 80px;
+    color: #fff;
+    font-weight: 500;
+    text-align: center;
+}
+
+.middle-pic span {
+    font-size: 30px;
+    color: #fff;
+    display: inline-block;
+    line-height: 80px;
+    width: 450px;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 30px;
+}
+
+.middle-pic .share-btn button {
+    font-size: 17px;
+    color: #999;
+    padding: 10px 20px;
+    letter-spacing: 2px;
+    margin: 0 5px;
+    border: none;
+    outline: none;
+}
+
+.middle-pic .share-btn button i {
+    color: #000;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .middle-pic .share-btn button {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+
+    .middle-pic {
+        padding-top: 150px;
+    }
+}
+
+/*中间图片区域*/
+
+/*相册*/
+.onePic {
+    height: auto;
+    background: #f8f7f5;
+}
+
+.onePic .info-area {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.onePic .info-area > div {
+    padding: 40px 0;
+    position: relative;
+}
+
+.onePic .info-area .txt {
+    width: 400px;
+    height: auto;
+    /*padding-top:20px*/
+}
+
+.onePic .info-area .txt hr {
+    width: 200px;
+    background: #999;
+    border: none;
+    height: 2px;
+}
+
+.onePic .info-area .txt h3 {
+    font-size: 30px;
+    color: #000;
+    margin: 20px 0;
+}
+
+.onePic .info-area .txt span {
+    font-size: 16px;
+    color: #666;
+}
+
+.onePic .info-area .pic {
+    width: 500px;
+    height: 400px;
+}
+
+.onePic .info-area .pic img {
+    width: 100%;
+    height: 100%;
+}
+
+.onePic .info-area > div:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 1050px) {
+    .onePic .info-area .pic {
+        width: 400px;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .onePic .info-area .pic {
+        width: 300px;
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .onePic .info-area .pic {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .onePic .info-area .txt {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .onePic .info-area .txt hr {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .onePic .info-area .pic {
+        width: 100%;
+        height: 360px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .middle-pic {
+        padding: 220px 0;
+    }
+
+    .middle-pic p {
+        font-size: 60px;
+    }
+
+    .middle-pic span {
+        font-size: 28px;
+        width:356px;
+    }
+    .onePic .info-area .txt {
+        width: 330px;
+    }
+}
+
+/*connect*/
+.Connect{
+    padding:80px 0;
+    background: url(../img/banner-bg.jpg);
+    background-size: 100% 140%;
+    text-align: center;
+}
+.Connect div:first-child{
+    font-size: 40px;
+    font-weight: bold;
+    color:#fff;
+}
+/*connect*/
+
+/*bottom-info*/
+.bottom-info{
+    padding:30px 40px;
+}
+.bottom-info ul li{
+    float: left;
+    padding:0px 0 15px 0;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+.bottom-info ul span{
+    display: inline-block;
+    width: 3px;
+    height:3px;
+    border-radius: 50%;
+    background: black;
+    margin:0 20px;
+}
+@media screen and (max-width: 500px){
+    /*.bottom-info{*/
+        /*text-align: center;*/
+    /*}*/
+    /*.bottom-info ul li{*/
+        /*margin:0 auto;*/
+    /*}*/
+    /*.bottom-info ul{*/
+        /*margin:0 auto;*/
+    /*}*/
+    .Connect div:first-child {
+        font-size: 33px;
+    }
+}
+/*bottom-info*/
+
+
+
+
+
+
+.top-btn-showStar{
+    font-size:25px;
+    margin:63px 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

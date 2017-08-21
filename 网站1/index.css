@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+.abs {
+    position: absolute;
+}
+
+.rel {
+    position: relative;
+}
+
+html, body {
+    height: 100%;
+}
+
+/* header */
+.header {
+    background-color: #d7e8d6;
+    position: relative;
+}
+
+.header .head {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.header .arrow {
+    background-color: #1cc7ae;
+    width: 140px;
+    height: 60px;
+    margin: auto;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: 75px;
+}
+
+.content .box {
+    padding: 50px;
+}
+
+.content .study {
+    float: left;
+    width: 50%;
+}
+
+/* skill */
+.content .skill {
+    float: right;
+    width: 50%;
+}
+
+.content .skill .title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.content .skill .progress-use {
+    display: inline-block;
+    height: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.content .skill .html .progress-use {
+    width: 40%;
+    background-color: #d7e8d6;
+}
+
+.content .skill .css .progress-use {
+    width: 50%;
+    background-color: #9ca6aa;
+}
+
+.content .skill .js .progress-use {
+    width: 60%;
+    background-color: #67a59e;
+}
+
+.content .skill .php .progress-use {
+    width: 70%;
+    background-color: #7a8d6c;
+}
+
+.content .skill .progress-max {
+    display: inline-block;
+    height: 20px;
+    background-color: #f2f2f2;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.content .skill .html .progress-max {
+    width: 60%;
+}
+
+.content .skill .css .progress-max {
+    width: 50%;
+}
+
+.content .skill .js .progress-max {
+    width: 40%;
+}
+
+.content .skill .php .progress-max {
+    width: 30%;
+}
+
+/* info */
+
+.content .info {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+
+/* social */
+
+.social {
+    float: left;
+    width: 25%;
+}
+
+.social-box h2 {
+    text-align: center;
+}
+
+.social .facebook {
+    width: 64px;
+    height: 64px;
+    background: url(../img/img-sprite.png) no-repeat 0px 0px;
+    float: left;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.social .twitter {
+    width: 64px;
+    height: 64px;
+    /*background: url(../img/img-sprite.png) no-repeat -64px 0px;*/
+    background-image: url(../img/img-sprite.png);
+    background-position: -64px 0px;
+    float: left;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.social .google {
+    width: 64px;
+    height: 64px;
+    background: url(../img/img-sprite.png) no-repeat -128px 0px;
+    float: left;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.social .behance {
+    width: 64px;
+    height: 64px;
+    background: url(../img/img-sprite.png) no-repeat -192px 0px;
+    float: left;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+.social .title {
+    line-height: 64px;
+}
+
+/* contact us */
+
+.contact-us {
+    background-color: #d7e7d5;
+}
+
+.contact-us h2 {
+    text-align: center;
+}
+
+.contact-us .left {
+    float: left;
+    width: 50%;
+}
+
+.contact-us .left input {
+    width: 100%;
+    margin-top:10px;
+}
+
+.contact-us .right {
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.contact-us .right textarea {
+    width: 100%;
+    margin-top:10px;
+}
+
+@media screen and (max-width: 414px) {
+    .header .arrow {
+        /*margin-bottom: 20px;*/
+        bottom: 20px;
+        position: relative;
+    }
+
+    .content .study {
+        float: none;
+        width: 100%;
+    }
+
+    .content .skill {
+        float: none;
+        width: 100%;
+    }
+
+    .content .info{
+        float:none;
+        width: 100%;
+    }
+
+    .contact-us .left {
+        float:none;
+        width:100%;
+    }
+
+    .contact-us .right {
+        float:none;
+        width:100%;
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .content .study {
+        float: none;
+        width: 100%;
+    }
+
+    .content .skill {
+        float: none;
+        width: 100%;
+    }
+}
